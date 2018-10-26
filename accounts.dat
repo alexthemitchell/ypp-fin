@@ -1,0 +1,40 @@
+account Income:Misc
+account Income:Gifts
+	alias Gift
+account Extracurriculars:Poker
+	alias Poker
+account Income:Pillages
+	alias Pillage
+account Assets:Ships
+account Assets:Pets
+account Assets:Property
+account Expenses:Gameplay:Swords
+	alias Swords
+account Storage:Ships:Whimsical Plaice
+account Equity:Opening Balance
+
+account Assets:Cash:Pieces of Eight
+	alias PoE
+
+account	Assets:Cash:Doubloons
+	alias Doubloons
+
+account Market Fee (3%)
+	alias Fee
+
+commodity PoE
+	alias Pieces of Eight
+	format 1,000.00 PoE
+	default
+
+commodity Doubloons
+	format 1,000 D
+
+commodity USD
+	alias US Dollars
+	format $1,000.00
+
+commodity SloopCursed
+commodity SloopDream
+commodity WarBrig
+
